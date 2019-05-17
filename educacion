@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Educacion</title>
+</head>
+<body>
+<header>
+	<meta charset="utf-8">
+	<h1>
+		<table border="0", cellpadding="0", cellspacing="0">
+			<tr>
+				<th><svg width="150" height="150">
+					<image xlink:href="images/Logo.svg" width="150px" height="150px" x="1px" y="1px"></image>
+				</svg></th>
+				<th>Curriculum Vitae</th>
+			</tr>
+		</table>
+	</h1>
+	</header>
+
+	<h2>Datos Personales</h2>
+	<h3>Nombres:Camila Violeta</h3>
+	<h3>Apellido:Lopez</h3>
+	<h3>Fecha de Nacimiento:15 de febrero de 1990</h3>
+	<h3>Nacionalidad:Argentina</h3>
+
+	<a href="index.html">Inicio</a>|
+	<a href="educacion.html">Educación</a>|
+	<a href="experiencia.html">Experiencia</a>
+	<h2>Educación</h2>
+	<p>
+	<table border="1", cellpadding="10", cellspacing="0">
+		<tr>
+			<th><strong>Año</strong></th>
+			<th><strong>Institución</strong></th>
+			<th><strong>Lugar</strong></th>
+			<th><strong>Graduación</strong></th>
+		</tr>
+		<tr>
+			<th>2002-2007</th>
+			<th>Colegio Integral de Educación Rio Grande</th>
+			<th>Tierra del Fuego</th>
+			<th>2007</th>
+		</tr>
+		<tr>
+			<th>2008-2017</th>
+			<th>Universidad Nacional de San Juan</th>
+			<th>San Juan</th>
+			<th>2017</th>
+		</tr>
+	</table></p>
+
+	<form class="" action="index.html" method="post">
+
+			<h3>Agregar estudios</h3>
+			<p>Año
+				<select class="" name="">
+					<option value="2018">2018</option>
+					<option value="2019">2019</option>
+					<option value="2020">2020</option>
+				</select></p>
+
+			<p>Institución
+			<input type="text" name="NomUsr" value="" required >
+			</p>
+
+			<p>Lugar
+			<textarea name="name" rows="2" cols="80"></textarea>
+			</p>
+			<input type="submit" name="" value="Enviar">
+	</form>
+</body>
+
+<br>
+<footer>
+	<p><strong>Información de contacto</strong><br>
+	E-mail:<a href="mailto:camilalopez@gmail.com">camilalopez@gmail.com</a> |
+		Teléfono: <em>+549 264 4850500</em>
+</footer>
+</html>
